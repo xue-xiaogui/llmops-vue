@@ -11,7 +11,7 @@ export const appConfig = {
   /** 是否启用演示登录，接入真实后端后关闭 */
   useMock: import.meta.env.VITE_USE_MOCK === 'true',
   /** 业务成功状态码，待确认后端约定 */
-  successCodes: [0, 200],
+  successCodes: [0, 200, "success"],
   auth: {
     /** localStorage 中 Token 的键名 */
     tokenKey: 'llmops_token',
